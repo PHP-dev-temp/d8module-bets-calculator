@@ -1,0 +1,13 @@
+.bets-calculator-oddsform .form-text{
+	width: 200px;
+}
+
+.bets-calculator-oddsform .form-type-checkbox,
+.bets-calculator-oddsform .form-type-textfield{
+	display: inline-block;
+}
+
+.bets-calculator-oddsform p{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}

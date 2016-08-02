@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Handle integration
+ *
+ * Implements hook_page_attachments().
+ */
+function bets_calculator_page_attachments(&$page) {
+  /**
+   * Add module's main library
+   */
+	$page['#attached']['library'][] = 'bets_calculator/bet-calc-css';
+}

@@ -1,0 +1,15 @@
+bets_calculator.form:
+  path: '/bets-calculator'
+  defaults:
+    _form: 'Drupal\bets_calculator\Form\BetsCalculatorForm'
+    _title: 'Bets odds calculator'
+  requirements:
+    _permission: 'access content'
+
+bets_calculator_odds.form:
+  path: '/bets-calculator/calculate'
+  defaults:
+    _form: 'Drupal\bets_calculator\Form\BetsCalculatorFormOdds'
+    _title: 'Bets odds calculator'
+  requirements:
+    _permission: 'access content'

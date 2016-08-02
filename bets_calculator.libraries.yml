@@ -1,0 +1,5 @@
+bet-calc-css:
+  version: 1.x
+  css:
+    theme:
+      /modules/bets_calculator/css/bet-calc.css: {}
